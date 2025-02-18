@@ -1,0 +1,47 @@
+.cep-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+  }
+  
+  .cep-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cep-button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cep-button:hover {
+    background: #0056b3;
+  }
+  
+  .loading {
+    color: #007BFF;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .cep-result {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
